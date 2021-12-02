@@ -1,3 +1,5 @@
+export PATH=/opt/homebrew/bin:$PATH
+
 # Set variables
 
 # Change the zsh options
