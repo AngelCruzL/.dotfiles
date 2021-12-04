@@ -14,8 +14,16 @@ brew "mas"
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
+# Tools for building Android applications
+cask "android-studio"
+# Web browser focusing on privacy
+cask "brave-browser"
+# Developer platform
+cask "dotnet"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# UI toolkit for building applications for mobile, web and desktop
+cask "flutter"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
