@@ -9,6 +9,8 @@ brew "exa"
 brew "httpie"
 # Application launcher and productivity software
 cask "alfred"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
@@ -17,7 +19,5 @@ cask "google-chrome"
 cask "microsoft-auto-update"
 # Web browser
 cask "microsoft-edge"
-# Office suite
-cask "microsoft-office"
 # Open-source code editor
 cask "visual-studio-code"
