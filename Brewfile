@@ -6,6 +6,8 @@ tap "homebrew/core"
 brew "bat"
 # Modern replacement for 'ls'
 brew "exa"
+# Distributed revision control system
+brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
@@ -44,3 +46,4 @@ mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Motion", id: 434290957
 mas "OneDrive", id: 823766827
+mas "Xcode", id: 497799835
