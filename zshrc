@@ -27,8 +27,10 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Write handy functions
 
 function mkcd() {
- mkdir -p "$@" && cd "$_";
+  mkdir -p "$@" && cd "$_";
 }
-
+function ..() {
+  cd ..
+}
 
 # Use ZSH pluggins
