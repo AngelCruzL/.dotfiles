@@ -34,3 +34,4 @@ function ..() {
 }
 
 # Use ZSH pluggins
+eval "$(starship init zsh)"

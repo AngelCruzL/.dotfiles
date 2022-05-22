@@ -2,32 +2,45 @@ tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # Modern replacement for 'ls'
 brew "exa"
 # Distributed revision control system
 brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Open source relational database management system
+brew "mysql", restart_service: true
+# Manage multiple Node.js versions
+brew "nvm"
+# General-purpose scripting language
+brew "php"
+# Python version management
+brew "pyenv"
+# Safe, concurrent, practical language
+brew "rust"
+# Cross-shell prompt for astronauts
+brew "starship"
+# JavaScript package manager
+brew "yarn"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
-# Application launcher and productivity software
-cask "alfred"
 # Tools for building Android applications
 cask "android-studio"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Developer platform
 cask "dotnet"
-# Client for the Dropbox cloud storage service
-cask "dropbox"
 # UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
-# Git client focusing on productivity
-cask "gitkraken"
 # Web browser
 cask "google-chrome"
 # Provides updates to various Microsoft products
