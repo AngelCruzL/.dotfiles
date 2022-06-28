@@ -43,6 +43,8 @@ cask "android-studio"
 cask "brave-browser"
 # Developer platform
 cask "dotnet"
+# Reimagine your terminal
+cask "fig"
 # UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
 # Web browser
@@ -53,6 +55,8 @@ cask "microsoft-auto-update"
 cask "microsoft-edge"
 # Open-source code editor
 cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
 mas "Bitwarden", id: 1352778147
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
