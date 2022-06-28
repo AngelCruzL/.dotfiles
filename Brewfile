@@ -7,6 +7,10 @@ tap "homebrew/services"
 brew "bat"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
+# General-purpose scripting language
+brew "php"
+# Dependency Manager for PHP
+brew "composer"
 # Modern replacement for 'ls'
 brew "exa"
 # Distributed revision control system
@@ -15,14 +19,14 @@ brew "git"
 brew "go"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
 # Mac App Store command-line interface
 brew "mas"
 # Open source relational database management system
 brew "mysql", restart_service: true
 # Manage multiple Node.js versions
 brew "nvm"
-# General-purpose scripting language
-brew "php"
 # Python version management
 brew "pyenv"
 # Safe, concurrent, practical language
@@ -52,6 +56,7 @@ cask "visual-studio-code"
 mas "Bitwarden", id: 1352778147
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
+mas "Keynote", id: 409183694
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
