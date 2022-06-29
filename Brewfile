@@ -27,6 +27,8 @@ brew "mas"
 brew "mysql", restart_service: true
 # Manage multiple Node.js versions
 brew "nvm"
+# Object-relational database system
+brew "postgresql", restart_service: true
 # Python version management
 brew "pyenv"
 # Safe, concurrent, practical language
@@ -41,6 +43,8 @@ brew "eth-p/software/bat-extras"
 cask "android-studio"
 # Web browser focusing on privacy
 cask "brave-browser"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Developer platform
 cask "dotnet"
 # Reimagine your terminal
@@ -53,6 +57,8 @@ cask "google-chrome"
 cask "microsoft-auto-update"
 # Web browser
 cask "microsoft-edge"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Open-source code editor
 cask "visual-studio-code"
 # Rust-based terminal
