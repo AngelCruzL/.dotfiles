@@ -13,6 +13,8 @@ brew "php"
 brew "composer"
 # Modern replacement for 'ls'
 brew "exa"
+# Fast and simple Node.js version manager
+brew "fnm"
 # Distributed revision control system
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
@@ -25,8 +27,6 @@ brew "lsd"
 brew "mas"
 # Open source relational database management system
 brew "mysql", restart_service: true
-# Manage multiple Node.js versions
-brew "nvm"
 # Object-relational database system
 brew "postgresql", restart_service: true
 # Python version management
