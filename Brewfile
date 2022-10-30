@@ -21,14 +21,16 @@ brew "git"
 brew "go"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Mac App Store command-line interface
 brew "mas"
 # Open source relational database management system
 brew "mysql", restart_service: true
-# Object-relational database system
-brew "postgresql", restart_service: true
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Python version management
 brew "pyenv"
 # Safe, concurrent, practical language
@@ -41,6 +43,8 @@ brew "yarn"
 brew "eth-p/software/bat-extras"
 # Tools for building Android applications
 cask "android-studio"
+# Compact TeX distribution as alternative to the full TeX Live / MacTeX
+cask "basictex"
 # Web browser focusing on privacy
 cask "brave-browser"
 # App to build and share containerized applications and microservices
@@ -57,8 +61,12 @@ cask "google-chrome"
 cask "microsoft-auto-update"
 # Web browser
 cask "microsoft-edge"
+# Control your tools with a few keystrokes
+cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Native GUI tool for relational databases
+cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
 # Rust-based terminal
@@ -66,11 +74,7 @@ cask "warp"
 mas "Bitwarden", id: 1352778147
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
-mas "Keynote", id: 409183694
-mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Motion", id: 434290957
 mas "OneDrive", id: 823766827
