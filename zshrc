@@ -12,6 +12,7 @@ alias exa='exa -laFh --git'
 alias man='batman'
 alias brewlist='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
+alias sail='./vendor/bin/sail'
 
 # Customize Promp(s)
 
