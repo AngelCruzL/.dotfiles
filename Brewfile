@@ -57,14 +57,18 @@ cask "fig"
 cask "flutter"
 # Web browser
 cask "google-chrome"
+# WordPress local development tool by Flywheel
+cask "local"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Web browser
 cask "microsoft-edge"
+# PHP IDE by JetBrains
+cask "phpstorm"
+# IDE for professional Python development
+cask "pycharm"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Move and resize windows using keyboard shortcuts or snap areas
-cask "rectangle"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
@@ -74,7 +78,9 @@ cask "warp"
 mas "Bitwarden", id: 1352778147
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
+mas "Keynote", id: 409183694
 mas "Microsoft OneNote", id: 784801555
+mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Motion", id: 434290957
 mas "OneDrive", id: 823766827
