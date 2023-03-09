@@ -27,16 +27,18 @@ brew "librsvg"
 brew "lsd"
 # Mac App Store command-line interface
 brew "mas"
-# Open source relational database management system
-brew "mysql", restart_service: true
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Python version management
 brew "pyenv"
+# Cross-platform application and UI framework
+brew "qt"
 # Safe, concurrent, practical language
 brew "rust"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Simplified and community-driven man pages
+brew "tldr"
 # JavaScript package manager
 brew "yarn"
 # Bash scripts that integrate bat with various command-line tools
@@ -55,6 +57,8 @@ cask "dotnet"
 cask "fig"
 # UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
+# GUI for the Dynamips Cisco router emulator
+cask "gns3"
 # Web browser
 cask "google-chrome"
 # WordPress local development tool by Flywheel
@@ -75,11 +79,15 @@ cask "tableplus"
 cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
+# JavaScript IDE
+cask "webstorm"
 mas "Bitwarden", id: 1352778147
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
+mas "HP Smart", id: 1474276998
 mas "Keynote", id: 409183694
 mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Motion", id: 434290957
