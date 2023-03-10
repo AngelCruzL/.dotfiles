@@ -37,6 +37,8 @@ brew "qt"
 brew "rust"
 # Cross-shell prompt for astronauts
 brew "starship"
+# CLI for generating a Software Bill of Materials from container images
+brew "syft"
 # Simplified and community-driven man pages
 brew "tldr"
 # JavaScript package manager
@@ -61,6 +63,8 @@ cask "flutter"
 cask "gns3"
 # Web browser
 cask "google-chrome"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
 # WordPress local development tool by Flywheel
 cask "local"
 # Provides updates to various Microsoft products
@@ -84,7 +88,6 @@ cask "webstorm"
 mas "Bitwarden", id: 1352778147
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
-mas "HP Smart", id: 1474276998
 mas "Keynote", id: 409183694
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
