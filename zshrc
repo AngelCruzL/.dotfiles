@@ -5,15 +5,23 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Create aliases
 
-#alias ls='ls -AlFh'
+## Utilities
+# alias ls='ls -AlFh'
 # alias ls='exa -laFh --git'
 alias ls='lsd -laFh'
 alias exa='exa -laFh --git'
 alias man='batman'
+alias cat='bat'
 alias brewlist='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias sail='./vendor/bin/sail'
-alias cat='bat'
+
+## Directories
+alias ..='cd ..'
+alias ...='cd ../..'
+alias dev='cd ~/Development'
+alias work='cd ~/Work'
+alias dotfiles='cd ~/.dotfiles'
 
 # Customize Promp(s)
 
@@ -34,9 +42,9 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
-function ..() {
-  cd ..
-}
 
 # Use ZSH pluggins
 eval "$(starship init zsh)"
+
+export PATH=/home/$USER/.fnm:$PATH
+eval "$(fnm env --use-on-cd --version-file-strategy=recursive)"
