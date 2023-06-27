@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # Set variables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
@@ -36,9 +38,10 @@ RPROMPT='%*'
 export PATH=/opt/homebrew/bin:$PATH
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# FNM variables
+eval "$(fnm env --use-on-cd)"
 
 # Write handy functions
-
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
@@ -46,5 +49,8 @@ function mkcd() {
 # Use ZSH pluggins
 eval "$(starship init zsh)"
 
-export PATH=/home/$USER/.fnm:$PATH
-eval "$(fnm env --use-on-cd --version-file-strategy=recursive)"
+#export PATH=/home/$USER/.fnm:$PATH
+#eval "$(fnm env --use-on-cd --version-file-strategy=recursive)"
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
