@@ -1,7 +1,5 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "microsoft/mssql-release"
 # Zstandard is a real-time compression algorithm
@@ -64,14 +62,14 @@ brew "lsd"
 brew "mas"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
+# Platform built on V8 to build network applications
+brew "node"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3", link: false
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pandoc filter for numbering and cross-referencing
 brew "pandoc-crossref"
-# General-purpose scripting language
-brew "php@8.1"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Python version management
@@ -98,20 +96,18 @@ brew "eth-p/software/bat-extras"
 brew "microsoft/mssql-release/msodbcsql18"
 # Sqlcmd and Bcp for Microsoft(R) SQL Server(R)
 brew "microsoft/mssql-release/mssql-tools18"
-# Tools for building Android applications
-cask "android-studio"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
 # Compact TeX distribution as alternative to the full TeX Live / MacTeX
 cask "basictex"
 # Web browser focusing on privacy
 cask "brave-browser"
-# C and C++ IDE
-cask "clion"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Developer platform
 cask "dotnet-sdk"
+# Assign keys, and then decorate and label them
+cask "elgato-stream-deck"
 # Reimagine your terminal
 cask "fig"
 # Collaborative team software
@@ -132,28 +128,21 @@ cask "microsoft-edge"
 cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# PHP IDE by JetBrains
-cask "phpstorm"
 # Collaboration platform for API development
 cask "postman"
-# IDE for professional Python development
-cask "pycharm"
 # Control your tools with a few keystrokes
 cask "raycast"
-# .NET IDE
-cask "rider"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
-# JavaScript IDE
-cask "webstorm"
 mas "Bitwarden", id: 1352778147
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
 mas "Keynote", id: 409183694
+mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
