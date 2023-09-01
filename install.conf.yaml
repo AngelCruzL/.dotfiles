@@ -11,6 +11,9 @@
     ~/.config/bat:
         create: true
         path: config/bat
+    ~/.ssh/config:
+        create: true
+        path: config/ssh/config
 
 - create:
     - ~/Work
