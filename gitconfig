@@ -12,3 +12,4 @@
 	ap = add -p
 [core]
 	autocrlf = input
+	excludesfile = /Users/angelcruz/.gitignore

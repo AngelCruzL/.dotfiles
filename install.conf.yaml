@@ -8,6 +8,7 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.gitconfig:
+    ~/gitignore: ~/.gitignore
     ~/.config/bat:
         create: true
         path: config/bat
@@ -20,6 +21,9 @@
     - ~/Development
 
 - shell:
+    - command: ./setup_git.zsh
+      stdout: true
+      stderr: true
     - command: ./setup_homebrew.zsh
       stdout: true
       stderr: true
