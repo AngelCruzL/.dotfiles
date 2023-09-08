@@ -17,6 +17,8 @@ alias cat='bat'
 alias brewlist='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias sail='./vendor/bin/sail'
+alias gpl='git stash && git pull && git stash pop'
+alias gup='git push -f origin HEAD^:main'
 
 ## Directories
 alias ..='cd ..'
