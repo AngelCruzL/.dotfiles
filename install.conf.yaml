@@ -8,10 +8,13 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.gitconfig:
-    ~/gitignore: ~/.gitignore
+    ~/.gitignore: gitignore
     ~/.config/bat:
         create: true
         path: config/bat
+    ~/.config/starship.toml:
+        create: true
+        path: config/starship/config.toml
     ~/.ssh/config:
         create: true
         path: config/ssh/config
