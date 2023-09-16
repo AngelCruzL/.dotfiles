@@ -62,16 +62,12 @@ brew "lsd"
 brew "mas"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
-# Platform built on V8 to build network applications
-brew "node"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3", link: false
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pandoc filter for numbering and cross-referencing
 brew "pandoc-crossref"
-# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
-brew "prettier"
 # Python version management
 brew "pyenv"
 # Python interface to Tcl/Tk
@@ -88,8 +84,6 @@ brew "syft"
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# JavaScript package manager
-brew "yarn"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # ODBC Driver for Microsoft(R) SQL Server(R)

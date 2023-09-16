@@ -12,6 +12,9 @@ fi
 # * Install Global NPM Packages
 
 echo "\n<<< Installing Global NPM Packages >>>\n"
+npm install --global yarn
+npm install --global pnpm
+npm install --global prettier
 npm install --global npkill
 npm install --global typescript
 npm install --global json-server
