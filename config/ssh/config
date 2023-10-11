@@ -1,5 +1,8 @@
 # SSH Config File
 
+ServerAliveInterval 120
+ServerAliveCountMax 3
+
 Host github.com
   HostName github.com
   IdentityFile ~/.ssh/id_github
@@ -7,3 +10,8 @@ Host github.com
 Host gitlab.com
   HostName gitlab.com
   IdentityFile ~/.ssh/id_gitlab
+
+Host vps_root
+  HostName 74.208.26.29
+  User root
+  IdentityFile ~/.ssh/id_vps_root
