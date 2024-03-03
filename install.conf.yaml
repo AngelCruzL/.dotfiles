@@ -24,16 +24,16 @@
     - ~/Development
 
 - shell:
-    - command: ./setup_ssh.zsh
+    - command: ./setup-scripts/setup_ssh.zsh
       stdout: true
       stderr: true
-    - command: ./setup_git.zsh
+    - command: ./setup-scripts/setup_git.zsh
       stdout: true
       stderr: true
-    - command: ./setup_homebrew.zsh
+    - command: ./setup-scripts/setup_homebrew.zsh
       stdout: true
       stderr: true
-    - command: ./setup_node.zsh
+    - command: ./setup-scripts/setup_node.zsh
       stdout: true
       stderr: true
 
