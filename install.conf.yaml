@@ -18,6 +18,9 @@
     ~/.ssh/config:
         create: true
         path: config/ssh/config
+    ~/.config/nvim:
+        create: true
+        path: config/nvim
 
 - create:
     - ~/Work
