@@ -1,4 +1,6 @@
 return {
+  { "olimorris/onedarkpro.nvim", priority = 1000, opts = { colorscheme = "onedark_vivid" } },
+  { "tanvirtin/monokai.nvim" },
   {
     "catppuccin/nvim",
     name = "catppuccin",
