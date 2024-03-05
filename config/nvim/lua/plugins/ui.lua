@@ -110,7 +110,7 @@ return {
     opts = {
       options = {
         -- globalstatus = false,
-        theme = "kanagawa",
+        -- theme = "monokai",
       },
     },
   },
