@@ -1,7 +1,6 @@
+tap "dart-lang/dart"
 tap "eth-p/software"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "microsoft/mssql-release"
 # Zstandard is a real-time compression algorithm
@@ -22,14 +21,14 @@ brew "autoconf"
 brew "automake"
 # C library implementing the SSH2 protocol
 brew "libssh2"
+# C library of Git core methods that is re-entrant and linkable
+brew "libgit2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
-# Get a file from an HTTP, HTTPS or FTP server
-brew "curl"
 # Generic library support script
 brew "libtool"
 # Library for encoding and decoding .avif files
@@ -40,10 +39,6 @@ brew "gd"
 brew "php"
 # Dependency Manager for PHP
 brew "composer"
-# C library of Git core methods that is re-entrant and linkable
-brew "libgit2"
-# Modern replacement for 'ls'
-brew "exa"
 # Fast and simple Node.js version manager
 brew "fnm"
 # Toolkit for image loading and pixel buffer manipulation
@@ -52,38 +47,54 @@ brew "gdk-pixbuf"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Image manipulation
+brew "netpbm"
 # OpenType text shaping engine
 brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# Kubernetes package manager
+brew "helm"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Next-gen compiler infrastructure
 brew "llvm"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Mac App Store command-line interface
 brew "mas"
+# Run a Kubernetes cluster locally
+brew "minikube"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pandoc filter for numbering and cross-referencing
 brew "pandoc-crossref"
+# Tool for managing OCI containers and pods
+brew "podman"
 # Python version management
 brew "pyenv"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Python interface to Tcl/Tk
 brew "python-tk@3.11"
+# Generic machine emulator and virtualizer
+brew "qemu"
 # Tools for and transforming and inspecting PDF files
 brew "qpdf"
 # Cross-platform application and UI framework
 brew "qt"
 # Safe, concurrent, practical language
 brew "rust"
+# Daemon to provide vmnet.framework support for rootless QEMU
+brew "socket_vmnet"
 # Cross-shell prompt for astronauts
 brew "starship"
 # CLI for generating a Software Bill of Materials from container images
@@ -92,20 +103,22 @@ brew "syft"
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# SDK
+brew "dart-lang/dart/dart"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
-# Data management tool that enables working with SQL Server
-cask "azure-data-studio"
+# Chromium based browser
+cask "arc"
 # Compact TeX distribution as alternative to the full TeX Live / MacTeX
 cask "basictex"
+# Voice and text chat software
+cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
 # Developer platform
 cask "dotnet-sdk"
 # Assign keys, and then decorate and label them
 cask "elgato-stream-deck"
-# Reimagine your terminal
-cask "fig"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -117,7 +130,7 @@ cask "jetbrains-toolbox"
 # WordPress local development tool by Flywheel
 cask "local"
 # Software for Logitech devices
-cask "logi-options-plus"
+cask "logi-options+"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Web browser
@@ -132,8 +145,8 @@ cask "obsidian"
 cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Native GUI tool for relational databases
-cask "tableplus"
+# Modified browser that helps in responsive web development
+cask "responsively"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -219,6 +232,7 @@ vscode "formulahendry.auto-rename-tag"
 vscode "formulahendry.code-runner"
 vscode "github.copilot"
 vscode "github.copilot-chat"
+vscode "github.remotehub"
 vscode "github.vscode-pull-request-github"
 vscode "glenn2223.live-sass"
 vscode "golang.go"
@@ -260,7 +274,6 @@ vscode "mehedidracula.php-namespace-resolver"
 vscode "mhutchie.git-graph"
 vscode "miguelsolorio.fluent-icons"
 vscode "miguelsolorio.symbols"
-vscode "mikehanson.auto-barrel"
 vscode "mikestead.dotenv"
 vscode "mintlify.document"
 vscode "moalamri.inline-fold"
@@ -346,6 +359,7 @@ vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vitaliymaz.vscode-svg-previewer"
 vscode "vmware.vscode-boot-dev-pack"
 vscode "vmware.vscode-spring-boot"
+vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
@@ -355,10 +369,10 @@ vscode "vscjava.vscode-spring-boot-dashboard"
 vscode "vscjava.vscode-spring-initializr"
 vscode "vscodevim.vim"
 vscode "vue.volar"
-vscode "vue.vscode-typescript-vue-plugin"
 vscode "wayou.vscode-todo-highlight"
 vscode "wholroyd.jinja"
 vscode "willstakayama.vscode-nextjs-snippets"
+vscode "withfig.fig"
 vscode "wix.vscode-import-cost"
 vscode "wmaurer.change-case"
 vscode "xabikos.javascriptsnippets"
