@@ -21,8 +21,6 @@ brew "autoconf"
 brew "automake"
 # C library implementing the SSH2 protocol
 brew "libssh2"
-# C library of Git core methods that is re-entrant and linkable
-brew "libgit2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Powerful, clean, object-oriented scripting language
@@ -63,6 +61,8 @@ brew "helm"
 brew "httpie"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
+# C library of Git core methods that is re-entrant and linkable
+brew "libgit2"
 # Next-gen compiler infrastructure
 brew "llvm"
 # Clone of ls with colorful output, file type icons, and more
@@ -123,18 +123,12 @@ cask "elgato-stream-deck"
 cask "figma"
 # Web browser
 cask "firefox"
-# UI toolkit for building applications for mobile, web and desktop
-cask "flutter"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
 # WordPress local development tool by Flywheel
 cask "local"
 # Software for Logitech devices
-cask "logi-options+"
-# Provides updates to various Microsoft products
-cask "microsoft-auto-update"
-# Web browser
-cask "microsoft-edge"
+cask "logitech-options"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Open-source software for live streaming and screen recording
@@ -207,12 +201,9 @@ vscode "docsmsft.docs-article-templates"
 vscode "docsmsft.docs-authoring-pack"
 vscode "docsmsft.docs-build"
 vscode "docsmsft.docs-images"
-vscode "docsmsft.docs-linting"
 vscode "docsmsft.docs-markdown"
-vscode "docsmsft.docs-metadata"
 vscode "docsmsft.docs-preview"
 vscode "docsmsft.docs-scaffolding"
-vscode "docsmsft.docs-visual-areas"
 vscode "docsmsft.docs-yaml"
 vscode "donjayamanne.githistory"
 vscode "donjayamanne.python-environment-manager"
@@ -372,7 +363,6 @@ vscode "vue.volar"
 vscode "wayou.vscode-todo-highlight"
 vscode "wholroyd.jinja"
 vscode "willstakayama.vscode-nextjs-snippets"
-vscode "withfig.fig"
 vscode "wix.vscode-import-cost"
 vscode "wmaurer.change-case"
 vscode "xabikos.javascriptsnippets"
