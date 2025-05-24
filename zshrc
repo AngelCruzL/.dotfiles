@@ -64,3 +64,16 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+# bun completions
+[ -s "/Users/angelcruz/.bun/_bun" ] && source "/Users/angelcruz/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# fnm
+FNM_PATH="/Users/angelcruz/Library/Application Support/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/Users/angelcruz/Library/Application Support/fnm:$PATH"
+  eval "`fnm env`"
+fi
