@@ -1,5 +1,5 @@
 [user]
-	email = 59263971+AngelCruzL@users.noreply.github.com
+	email = me@angelcruzl.dev
 	name = Ángel Cruz
 [init]
 	defaultBranch = main
@@ -12,4 +12,4 @@
 	ap = add -p
 [core]
 	autocrlf = input
-	excludesfile = /Users/angelcruz/.gitignore
+	excludesfile = /Users/angelcruzl/.gitignore
